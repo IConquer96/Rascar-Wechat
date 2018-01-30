@@ -14,11 +14,11 @@ import subprocess
 from itchat.content import *
 from imp import reload
 
-from tools.Tuling import get_response
-import tools.wifirobots as robot
-from tools.player import Player
-from tools.mic import say
-from tools.stt import listen
+from Tools.Tuling import get_response
+import Tools.wifirobots as robot
+from Tools.player import Player
+from Tools.mic import say
+from Tools.stt import listen
 
 #######################################
 #############信号引脚定义################

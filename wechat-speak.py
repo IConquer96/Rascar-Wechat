@@ -118,7 +118,6 @@ def text_reply(msg):
         
         elif command == "状态":
             os.system('cat deng.txt door.txt tv.txt >all.txt')
-            #user = itchat.search_friends(name=u'等风来')[0]
             itchat.send_file("/home/pi/dai/command/all.txt",toUserName='filehelper')
         else :
             res = get_response(command)

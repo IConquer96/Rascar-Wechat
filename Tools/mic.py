@@ -13,7 +13,7 @@ def say(what):
 
 	from aip import AipSpeech
 	""" 你的 APPID AK SK """
-	APP_ID = '10462370'
+	APP_ID = '*******'
 	API_KEY = '*************************'
 	SECRET_KEY = '*****************************'
 	client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
